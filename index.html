@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namrata Sahu | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Namrata.Dev</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="bg-blob blob-1"></div>
+        <div class="bg-blob blob-2"></div>
+
+        <div class="hero-container">
+            <div class="hero-text">
+                <h3><i class="fas fa-code-branch"></i> Hello, I'm</h3>
+                <h1>Namrata Sahu</h1>
+                <h2 style="font-size: 2rem; font-weight: 600; margin-bottom: 1rem; color: var(--dark);">
+                    I am a <span class="typing-text"></span>
+                </h2>
+                <p>A passionate Developer transforming ideas into seamless web experiences. Specialized in the MERN stack and ready to build scalable solutions.</p>
+                <div class="btn-group">
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            
+            <div class="hero-img-box">
+                <img src="./Namrata sahu image.jpeg" alt="Namrata Avatar">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <p>My journey from curiosity to code.</p>
+        </div>
+        <div class="glass exp-card" style="align-items: center;">
+            <div style="flex: 1;">
+                <p style="margin-bottom: 1rem; font-size: 1.1rem; color: var(--text-gray);">
+                    I am a final year <strong>Computer Science</strong> student at Indore Institute of Science and Technology. What started as a simple curiosity about how websites work has turned into a full-blown passion for Full Stack Development.
+                </p>
+                <p style="margin-bottom: 1rem; font-size: 1.1rem; color: var(--text-gray);">
+                    Currently, I am mastering the <strong>MERN Stack</strong> (MongoDB, Express, React, Node.js) and exploring the world of DevOps with tools like Vercel and Git.
+                </p>
+                <div style="display: flex; gap: 2rem; margin-top: 2rem;">
+                    <div>
+                        <h3 style="color: var(--primary); font-size: 2rem;">10+</h3>
+                        <span>Projects</span>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary); font-size: 2rem;">2025</h3>
+                        <span>Graduation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <p>The tools and technologies I use to breathe life into code.</p>
+        </div>
+        <div class="skills-container">
+            <div class="glass skill-card">
+                <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span class="tag"><i class="fab fa-react" style="color: #61DAFB;"></i> React.js</span>
+                    <span class="tag"><i class="fab fa-js" style="color: #F7DF1E;"></i> JavaScript</span>
+                    <span class="tag"><i class="fab fa-css3-alt" style="color: #2965f1;"></i> Tailwind</span>
+                    <span class="tag"><i class="fab fa-html5" style="color: #e34c26;"></i> HTML5</span>
+                </div>
+            </div>
+            
+            <div class="glass skill-card">
+                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                <h3>Backend</h3>
+                <div class="skill-tags">
+                    <span class="tag"><i class="fab fa-node-js" style="color: #68a063;"></i> Node.js</span>
+                    <span class="tag"><i class="fas fa-database" style="color: #00758f;"></i> MySQL</span>
+                    <span class="tag"><i class="fas fa-leaf" style="color: #4DB33D;"></i> MongoDB</span>
+                    <span class="tag"><i class="fas fa-code"></i> C/C++</span>
+                </div>
+            </div>
+
+            <div class="glass skill-card">
+                <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                <h3>Tools</h3>
+                <div class="skill-tags">
+                    <span class="tag"><i class="fab fa-git-alt" style="color: #f14e32;"></i> Git</span>
+                    <span class="tag"><i class="fab fa-github"></i> GitHub</span>
+                    <span class="tag"><i class="fas fa-cloud-upload-alt"></i> Vercel</span>
+                    <span class="tag"><i class="fab fa-figma" style="color: #F24E1E;"></i> Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Some things I've built recently.</p>
+        </div>
+        <div class="projects-grid">
+            <div class="glass project-card">
+                <div class="project-thumb">
+                    <i class="fas fa-heartbeat" style="color: var(--primary);"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Medi-Care App</h3>
+                    <p style="color: var(--text-gray); font-size: 0.95rem; margin: 10px 0;">
+                        A responsive healthcare platform allowing patients to browse services and book appointments easily.
+                    </p>
+                    <div class="skill-tags" style="margin-bottom: 1rem;">
+                        <span class="tag">React</span>
+                        <span class="tag">Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass project-card">
+                <div class="project-thumb">
+                    <i class="fab fa-youtube" style="color: #ef4444;"></i>
+                </div>
+                <div class="project-info">
+                    <h3>YouTube Clone</h3>
+                    <p style="color: var(--text-gray); font-size: 0.95rem; margin: 10px 0;">
+                        Video streaming application fetching real-time data using rapid APIs.
+                    </p>
+                    <div class="skill-tags" style="margin-bottom: 1rem;">
+                        <span class="tag">React Hooks</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Experience</h2>
+        </div>
+        <div class="glass exp-card">
+            <div class="skill-icon" style="margin-bottom: 0;"><i class="fas fa-users-cog"></i></div>
+            <div>
+                <h3>SIG Member - Programming & Project Building</h3>
+                <h4 style="color: var(--primary);">Indore Institute of Science and Technology</h4>
+                <ul class="exp-list">
+                    <li>Collaborated in a Special Interest Group (SIG) covering C, C++, Java, and Python.</li>
+                    <li>Mastered Data Structures (Arrays, Linked Lists) for efficient coding.</li>
+                    <li>Transitioned from theoretical learning to building real-world projects in teams.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-container">
+            <div class="glass contact-box">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <h3>Email</h3>
+                <p>namratasahu0419@gmail.com</p>
+            </div>
+            <div class="glass contact-box">
+                <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/namratasahu</p>
+            </div>
+            <div class="glass contact-box">
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                <h3>Phone</h3>
+                <p>+91 8770827189</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://github.com" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/namratasahu" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:namratasahu0419@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>Designed & Built by Namrata Sahu | © 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
